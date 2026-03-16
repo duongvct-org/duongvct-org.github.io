@@ -242,5 +242,14 @@ return {
         end
       end
     end,
+
+    -- Enhance PDF links for modal viewing
+    Link = function(link)
+      local _, ext = path.split_extension(link.target)
+      if ext == ".pdf" then
+        link.attributes["data-pdf-link"] = "true"
+        return link
+      end
+    end,
   }
 }

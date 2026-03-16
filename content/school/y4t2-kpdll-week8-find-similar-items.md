@@ -28,8 +28,9 @@ Cải thiện -> PCY
 
 # References
 
-- https://medium.com/weekly-data-science/the-pcy-algorithm-and-its-friends-ecba67216190
-- http://infolab.stanford.edu/~ullman/cs345notes/cs345-7.pdf
+- [PCY Algorithm and Friends (Medium Article)](https://medium.com/weekly-data-science/the-pcy-algorithm-and-its-friends-ecba67216190)
+- [Finding Similar Items (Lecture Notes PDF - Click to View)](http://infolab.stanford.edu/~ullman/cs345notes/cs345-7.pdf)
 
-![Finding Similar Items Lecture Notes](http://infolab.stanford.edu/~ullman/cs345notes/cs345-7.pdf){height=800px}
+### Lecture Slides Preview
+![Finding Similar Items Lecture Notes](http://infolab.stanford.edu/~ullman/cs345notes/cs345-7.pdf){height=600px}
 
