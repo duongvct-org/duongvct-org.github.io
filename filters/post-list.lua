@@ -67,21 +67,28 @@ local function make_postlist(dirs, n)
 
   for _, dir in ipairs(dirs) do
     local path = "content/" .. dir
-    local posts = pandoc.system.list_directory(path)
+    local ok, posts = pcall(pandoc.system.list_directory, path)
+    if ok and posts then
+      for _, post in ipairs(posts) do
+        -- Only process markdown files
+        if post:match("%.md$") or post:match("%.md%.lhs$") then
+          local ok_meta, meta = pcall(fs.read_metadata, pandoc.path.join{path, post})
 
-    pandoc.log.info(fmt("Found %d posts in %s", #posts, dir))
+          if ok_meta and meta and meta.title then
+            local date_obj = nil
+            local ok_date, res = pcall(Date, meta.date)
+            if ok_date then date_obj = res end
 
-    for _, post in ipairs(posts) do
-      pandoc.log.info("Reading " .. dir .. "/" .. post)
-      local meta = fs.read_metadata(pandoc.path.join{path, post})
-
-      table.insert(all_metadata, {
-        href       = fmt("/%s/%s/", dir, getfilename(post)),
-        date       = Date(meta.date),
-        theme      = extract_strings(meta.theme),
-        title      = pandoc.utils.stringify(meta.title),
-        requisites = extract_strings(meta.requisites),
-      })
+            table.insert(all_metadata, {
+              href       = fmt("/%s/%s/", dir, getfilename(post)),
+              date       = date_obj,
+              theme      = extract_strings(meta.theme),
+              title      = pandoc.utils.stringify(meta.title),
+              requisites = extract_strings(meta.requisites),
+            })
+          end
+        end
+      end
     end
   end
 
