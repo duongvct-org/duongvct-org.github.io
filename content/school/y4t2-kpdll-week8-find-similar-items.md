@@ -1,5 +1,5 @@
 ---
-title: Mining of massive datasets - Finding similar items: Locality sensitive hashing
+title: Mining of massive datasets - Finding similar items - Locality sensitive hashing
 keywords: [big-data, locality-sensitive-hashing, find-similar-items]
 date: 2026-03-16
 theme: big-data
