@@ -1,7 +1,7 @@
 # Personal Site's Source Code
 
-My own [personal website](https://vucongtuanduong.github.io).
-There is also an [RSS feed](https://vucongtuanduong.github.io/rss.xml) for the posts---in case you're interested.
+My own [personal website](https://duongvct-org.github.io/).
+There is also an [RSS feed](https://duongvct-org.github.io/rss.xml) for the posts---in case you're interested.
 
 The site theme is built upon oxalorg's
 [sakura-earthly](https://github.com/oxalorg/sakura) theme.

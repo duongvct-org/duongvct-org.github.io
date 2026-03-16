@@ -5,7 +5,7 @@ post: true
 
 I am Duong Vu Cong Tuan, a software developer. I am currently a senior at PTIT, Hanoi, Vietnam. My major is Computer Science with Data Science orientation. 
 
-My interest lies in software development, system design, software architecture and distributed systems. My goal now is trying to build some industry-proven tools or systems, like Apache Kafka, Redis, ... to try to grasp an understanding about how they work under the hood. 
+My interest lies in software development, system design, software architecture and distributed systems. My goal now is trying to build some industry-proven tools or systems, like Apache Kafka, Redis, ... to try to grasp an understanding about how they work under the hood. I also has a [Youtube channel](https://www.youtube.com/@Noob_user2023) about software and programming too.
 
 I can work with various programming languages and frameworks, such as Java, Spring Boot, Go, Python, C++
 
