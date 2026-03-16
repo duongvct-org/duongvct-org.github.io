@@ -31,3 +31,5 @@ Cải thiện -> PCY
 - https://medium.com/weekly-data-science/the-pcy-algorithm-and-its-friends-ecba67216190
 - http://infolab.stanford.edu/~ullman/cs345notes/cs345-7.pdf
 
+![Finding Similar Items Lecture Notes](http://infolab.stanford.edu/~ullman/cs345notes/cs345-7.pdf){height=800px}
+

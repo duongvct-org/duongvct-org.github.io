@@ -221,6 +221,15 @@ return {
         if ext == ".svg" then
           return format_tag(img.src, img)
         end
+
+        if ext == ".pdf" then
+          local height = img.attributes["height"] or "600px"
+          return pandoc.Figure(
+             { pandoc.RawBlock("html", fmt('<iframe src="%s" width="100%%" height="%s"></iframe>', img.src, height)) }
+            , {}
+            , img.attr
+            )
+        end
       end
     end,
 
