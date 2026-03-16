@@ -33,6 +33,4 @@ Cải thiện -> PCY
 
 - [Information Retrieval books](/pdfs/intro_information_retrieval.pdf)
 
-### Lecture Slides Preview
-![Finding Similar Items Lecture Notes](http://infolab.stanford.edu/~ullman/cs345notes/cs345-7.pdf){height=600px}
 
