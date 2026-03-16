@@ -15,6 +15,7 @@ Mining of massive datasets - Finding similar items: Locality sensitive hashing
 Quan sát rằng để tìm được 1 cặp a-b xuất hiện n lần thì cả a và b đều phải xuất hiện n lần
 
 Các bước:
+
 - đếm số lần xuất hiện của từng item
 - Lọc những item mà số lần xuất hiện $\gt \lambda$  -> lấy k items ( k <<<< n)
 - duyệt và đếm số cặp trong K item(O($K^2$))
@@ -26,5 +27,7 @@ Cải thiện -> PCY
 ## PCY
 
 # References
-https://medium.com/weekly-data-science/the-pcy-algorithm-and-its-friends-ecba67216190
-http://infolab.stanford.edu/~ullman/cs345notes/cs345-7.pdf
+
+- https://medium.com/weekly-data-science/the-pcy-algorithm-and-its-friends-ecba67216190
+- http://infolab.stanford.edu/~ullman/cs345notes/cs345-7.pdf
+
