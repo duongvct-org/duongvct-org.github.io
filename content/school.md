@@ -30,6 +30,10 @@ title: School
     <span class="theme-marker time-series" title="time series"></span>
     <span>time series</span>
   </li>
+  <li>
+    <span class="theme-marker recommender-system" title="recommender system"></span>
+    <span>recommender<br>system</span>
+  </li>
 </ul>
 ```
 
