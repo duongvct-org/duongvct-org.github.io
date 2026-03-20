@@ -51,15 +51,15 @@
         </div>
 
         <ul class="description bullet">
-          <li>Took part in migrating some APIs from old monolithic service to new Database service</li>
-          <li>Developed backend for database admin portal service</li>
-          <li>Took part in developing monitoring and configuration feature for proxy agent</li>
+          <li>Migrated APIs from monolithic architecture to microservices using the Saga pattern for distributed transaction management.</li>
+          <li>Developed backend APIs for a database administration portal, covering instance management, network port configuration, and task reset operations..</li>
+          <li>Contributed to building monitoring and configuration features for a proxy agent service.</li>
         </ul>
         <div class="skill-list">
           <span class="skill">Spring Boot</span>
-          <span class="skill">MariaDB</span>
-          <span class="skill">Docker</span>
-          <span class="skill">Microservices</span>
+          <span class="skill">Python</span>
+          <span class="skill">Openstack</span>
+          <span class="skill">Linux command</span>
         </div>
       </div>
     </li>
@@ -80,13 +80,6 @@
           <li>Web architecture, security and database in web development, web deployment and optimization</li>
           <li>Mini-project about load-testing system using Spring Boot</li>
         </ul>
-        <div class="skill-list">
-          <span class="skill">Git</span>
-          <span class="skill">Linux</span>
-          <span class="skill">Docker</span>
-          <span class="skill">SQL</span>
-          <span class="skill">Spring Boot</span>
-        </div>
       </div>
     </li>
   </ul>
