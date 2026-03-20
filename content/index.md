@@ -51,14 +51,14 @@
         </div>
 
         <ul class="description bullet">
-          <li>Migrated APIs from monolithic architecture to microservices using the Saga pattern for distributed transaction management.</li>
-          <li>Developed backend APIs for a database administration portal, covering instance management, network port configuration, and task reset operations..</li>
-          <li>Contributed to building monitoring and configuration features for a proxy agent service.</li>
+          <li>Migrated APIs from a monolithic architecture to microservices, implementing the Saga pattern</li>
+          <li>Designed and implemented backend APIs for a database administration portal, supporting instance management, network configuration, and task recovery operations.</li>
+          <li>Built monitoring and configuration features for a proxy agent service, enabling real-time health tracking and dynamic system updates.</li>
         </ul>
         <div class="skill-list">
           <span class="skill">Spring Boot</span>
           <span class="skill">Python</span>
-          <span class="skill">Openstack</span>
+          <span class="skill">OpenStack</span>
           <span class="skill">Linux command</span>
         </div>
       </div>
