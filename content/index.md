@@ -35,6 +35,45 @@
 
 
 ```{=html}
+<section id="experience" class="panel">
+  <h2 class="section-title">Experience</h2>
+
+  <ul class="lib-list">
+    <li>
+      <div style="width: 100%;">
+        <div class="header">
+          <h3 class="title">Your Job Title</h3>
+          <span class="date">Jan 2024 — Present</span>
+        </div>
+        
+        <div class="company">
+          Company Name or Organization
+        </div>
+
+        <ul class="description bullet">
+          <li>First bullet point: describe your responsibilities and key achievements.</li>
+          <li>Second bullet point: highlight another significant contribution or project.</li>
+          <li>Third bullet point: mention specific technologies or tools you used.</li>
+        </ul>
+      </div>
+    </li>
+
+    <!-- Template for more items:
+    <li>
+      <div style="width: 100%;">
+        <div class="header">
+          <h3 class="title">Job Title</h3>
+          <span class="date">Date — Date</span>
+        </div>
+        <div class="company">Organization</div>
+        <ul class="description bullet">
+          <li>Details...</li>
+        </ul>
+      </div>
+    </li>
+    -->
+  </ul>
+</section>
 <!-- Projects panel -->
 <section id="projects" class="panel" style="grid-column: 1 / -1;">
   <h2 class="section-title">Projects</h2>

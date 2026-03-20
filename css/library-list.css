@@ -60,15 +60,39 @@ ul.lib-list {
     font-family:   var(--font-heading);
     font-size:     1rem;
     margin: 0;
-    white-space:   nowrap;
-    overflow:      hidden;
-    text-overflow: ellipsis;
+    white-space:   normal;
+    overflow:      visible;
+  }
+
+  .header {
+    display:         flex;
+    justify-content: space-between;
+    align-items:     baseline;
+    margin-bottom:   0.25rem;
+  }
+
+  .date {
+    font-size:   var(--font-size-small);
+    color:       var(--color-faded);
+    white-space: nowrap;
+    margin-left: 1rem;
+  }
+
+  .company {
+    font-weight:   600;
+    margin-bottom: 0.5rem;
   }
 
   .description {
     font-size:  var(--font-size-small);
     color:      var(--color-faded);
     text-align: left;
+
+    &.bullet {
+      list-style-type: disc;
+      padding-left:    1.25rem;
+      margin-top:      0.5rem;
+    }
   }
 
 }
