@@ -95,4 +95,25 @@ ul.lib-list {
     }
   }
 
+  .skill-list {
+    display:    flex;
+    flex-wrap:  wrap;
+    gap:        0.5rem;
+    margin-top: 0.75rem;
+  }
+
+  .skill {
+    background:   var(--color-crystal);
+    color:        var(--color-accent);
+    font-weight:  600;
+    font-size:    var(--font-size-small);
+    padding:      4px 8px;
+    transition:   transform .08s, box-shadow .08s;
+
+    &:hover {
+      transform:  translateY(-2px);
+      box-shadow: 2px 2px 1px rgba(36, 36, 36, 0.5);
+    }
+  }
+
 }

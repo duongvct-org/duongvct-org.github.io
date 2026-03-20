@@ -42,36 +42,53 @@
     <li>
       <div style="width: 100%;">
         <div class="header">
-          <h3 class="title">Your Job Title</h3>
-          <span class="date">Jan 2024 — Present</span>
+          <h3 class="title">Software Development Intern</h3>
+          <span class="date">July 2025 — Present</span>
         </div>
         
         <div class="company">
-          Company Name or Organization
+          Viettel IDC
         </div>
 
         <ul class="description bullet">
-          <li>First bullet point: describe your responsibilities and key achievements.</li>
-          <li>Second bullet point: highlight another significant contribution or project.</li>
-          <li>Third bullet point: mention specific technologies or tools you used.</li>
+          <li>Took part in migrating some APIs from old monolithic service to new Database service</li>
+          <li>Developed backend for database admin portal service</li>
+          <li>Took part in developing monitoring and configuration feature for proxy agent</li>
         </ul>
+        <div class="skill-list">
+          <span class="skill">Spring Boot</span>
+          <span class="skill">MariaDB</span>
+          <span class="skill">Docker</span>
+          <span class="skill">Microservices</span>
+        </div>
       </div>
     </li>
 
-    <!-- Template for more items:
     <li>
       <div style="width: 100%;">
         <div class="header">
-          <h3 class="title">Job Title</h3>
-          <span class="date">Date — Date</span>
+          <h3 class="title">Software Engineer Intern</h3>
+          <span class="date">April 2025 — June 2025</span>
         </div>
-        <div class="company">Organization</div>
+        
+        <div class="company">
+          Viettel Digital Talent
+        </div>
+        Specialized training with:
         <ul class="description bullet">
-          <li>Details...</li>
+          <li> Version Control System, Linux Operating System, Docker, SQL, Agile</li>
+          <li>Web architecture, security and database in web development, web deployment and optimization</li>
+          <li>Mini-project about load-testing system using Spring Boot</li>
         </ul>
+        <div class="skill-list">
+          <span class="skill">Git</span>
+          <span class="skill">Linux</span>
+          <span class="skill">Docker</span>
+          <span class="skill">SQL</span>
+          <span class="skill">Spring Boot</span>
+        </div>
       </div>
     </li>
-    -->
   </ul>
 </section>
 <!-- Projects panel -->
