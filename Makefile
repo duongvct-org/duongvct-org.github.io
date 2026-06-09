@@ -17,7 +17,7 @@ school-result := $(patsubst $(content)/school/%.md.lhs,$(build)/school/%/index.h
 school-result := $(patsubst $(content)/school/%.md,$(build)/school/%/index.html,$(school-result))
 
 # All additional pages go here
-pages-names  = about masters posts school search
+pages-names  = about posts school search
 pages-result = $(addprefix $(build)/,$(addsuffix /index.html,$(pages-names)) \
                  index.html 404.html)
 
