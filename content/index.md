@@ -54,13 +54,14 @@
           <li>Migrated APIs from a monolithic architecture to microservices, implementing the Saga pattern</li>
           <li>Designed and implemented backend APIs for a database administration portal, supporting instance management, network configuration, and task reset operations.</li>
           <li>Built monitoring and configuration features for a proxy agent service, enabling real-time health tracking and dynamic system updates.</li>
-          <li>Worked on a large distributed system built on OpenStack and other microservices</li>
+          <li>Worked in a large distributed system built on OpenStack and other services</li>
         </ul>
         <div class="skill-list">
           <span class="skill">Spring Boot</span>
           <span class="skill">Python</span>
           <span class="skill">OpenStack</span>
           <span class="skill">Linux command</span>
+          <span class="skill">Kafka</span>
         </div>
       </div>
     </li>
