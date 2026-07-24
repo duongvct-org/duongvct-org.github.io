@@ -13,3 +13,5 @@ unposts/
 .harper-dictionary.txt
 
 **/tests/**
+
+**/.idea/**
