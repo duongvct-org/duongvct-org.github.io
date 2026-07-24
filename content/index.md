@@ -8,29 +8,12 @@
     </div>
     <div class="salute">
     <span>
-      Hello! I'm Duong Vu Cong Tuan, a software developer. I am currently a senior at PTIT, Hanoi, Vietnam and a software developer intern. Welcome to my blog about programming, software development, my life, my point of view and everything in between.
+      Hello! I'm Duong Vu Cong Tuan, a software developer and a senior at PTIT, Hanoi, Vietnam. I build things — mainly backend systems, distributed services, and the occasional shell from scratch.
     </span>
     </div>
   </div>
 </div>
 ```
-
-
-:::{.panel id="posts"}
-```{=html}
-<h2 class="section-title">Recent Posts</h2>
-<a href="https://vucongtuanduong.github.io/posts/index-file/">
-          Index file of the blog
-        </a>
-<a href="https://vucongtuanduong.github.io/school/school-post-index/">
-          Index file of the school posts
-        </a>
-```
-
-{{ recent-list 7 }}
-
-[View all...](/posts)
-:::
 
 
 

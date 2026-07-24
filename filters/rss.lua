@@ -34,15 +34,17 @@ function makeitem(dir, post)
 end
 
 function Meta(m)
-  local dirs = {"posts", "school"}
+  local dirs = {}
   local all_posts = {}
 
   for _, dir in ipairs(dirs) do
     local postdir = "content/" .. dir
-    local posts   = pandoc.system.list_directory(postdir)
+    local ok, posts = pcall(pandoc.system.list_directory, postdir)
 
-    for _, post in ipairs(posts) do
-      table.insert(all_posts, makeitem(dir, pandoc.path.join{postdir, post}))
+    if ok and posts then
+      for _, post in ipairs(posts) do
+        table.insert(all_posts, makeitem(dir, pandoc.path.join{postdir, post}))
+      end
     end
   end
 

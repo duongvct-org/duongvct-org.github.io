@@ -9,7 +9,7 @@ My interest lies in software development, system design, software architecture a
 
 I can work with various programming languages and frameworks, such as Java, Spring Boot, Go, Python, C++
 
-If you want to discuss something I wrote on the blog or just say “hi” or want to colab with me, please send me an email at vucongtuanduong2409@gmail.com.
+If you want to say "hi" or discuss collaboration, please send me an email at vucongtuanduong2409@gmail.com.
 
 
 Most of my personal side projects are open source (including this site!) and you can find the repositories in my Github profile.
