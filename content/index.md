@@ -25,8 +25,8 @@
     <li>
       <div style="width: 100%;">
         <div class="header">
-          <h3 class="title">Software Development Intern</h3>
-          <span class="date">July 2025 — Present</span>
+          <h3 class="title">Software Developer Intern</h3>
+          <span class="date">July 2025 — August 2026</span>
         </div>
         
         <div class="company">
@@ -34,6 +34,9 @@
         </div>
 
         <ul class="description bullet">
+          <li>Developed DBaaS backend services, implementing core actions: database instances creation, slave promotion, backup
+          restoration, and deletion </li>
+          <li>Developed VM backup and restore features via third-party API integration.</li>
           <li>Migrated APIs from a monolithic architecture to microservices, implementing the Saga pattern</li>
           <li>Designed and implemented backend APIs for a database administration portal, supporting instance management, network configuration, and task reset operations.</li>
           <li>Built monitoring and configuration features for a proxy agent service, enabling real-time health tracking and dynamic system updates.</li>
@@ -63,7 +66,7 @@
         <ul class="description bullet">
           <li> Version Control System, Linux Operating System, Docker, SQL, Agile</li>
           <li>Web architecture, security and database in web development, web deployment and optimization</li>
-          <li>Mini-project about load-testing system using Spring Boot</li>
+          <li>Mini-project about load-testing system using Spring Boot, ELK Stack and Observability stack using Grafana and Prometheus</li>
         </ul>
       </div>
     </li>
